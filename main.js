@@ -59,12 +59,8 @@ setInterval(atualizaCronometro,1000);
 comecaCronometro();
 
 if (tempoFinal > 0){
-return dias + '' dias '' + horas + ' horas ' + minutos + 
-'minutos ' + segundos + ' segundos';
+return + ' dias '  + ' horas ' + 
+'minutos ' +  ' segundos';
 } else {
 return 'Prazo Finalizado';
 }
-
-
-
-
