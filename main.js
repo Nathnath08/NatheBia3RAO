@@ -63,4 +63,43 @@ return + ' dias '  + ' horas ' +
 'minutos ' +  ' segundos';
 } else {
 return 'Prazo Finalizado';
+  let dias = Math.floor(horas / 24);
+  <p class='contador-digito-numero' id='dias0'>7</p>
+
+  <div class='contador-digito'>
+<p class='contador-digito-numero' id='dias0'>7</p>
+<p class='contador-digito-texto'>dias</p>
+</div>
+<div class='contador-digito'>
+<p class='contador-digito-numero' id='horas0'>7</p>
+<p class='contador-digito-texto'>horas</p>
+</div>
+<div class='contador-digito'>
+<p class='contador-digito-numero' id='min0'>7</p>
+<p class='contador-digito-texto'>min</p>
+</div>
+<div class='contador-digito'>
+<p class='contador-digito-numero' id='seg0'>7</p>
+<p class='contador-digito-texto'>seg</p>
+</div>
+
+  <div class='contador'>
+<div class='contador-digito'>
+<p class='contador-digito-numero' id='dias1'>7</p>
+<p class='contador-digito-texto'>dias</p>
+</div>
+<div class='contador-digito'>
+<p class='contador-digito-numero' id='horas1'>7</p>
+<p class='contador-digito-texto'>horas</p>
+</div>
+<div class='contador-digito'>
+<p class='contador-digito-numero' id='min1'>7</p>
+<p class='contador-digito-texto'>min</p>
+</div>
+<div class='contador-digito'>
+<p class='contador-digito-numero' id='seg1'>7</p>
+<p class='contador-digito-texto'>seg</p>
+</div>
+</div>
+  
 }
